@@ -68,7 +68,7 @@
         border-color: #000000;
     }
 
-    button {
+    .button1 {
         font-size: 16px;
         border-radius: 12px;
         background-color: white;
@@ -81,7 +81,7 @@
         transition: padding color 1s;
     }
 
-    button:hover {
+    .button1:hover {
         background-color: #333;
         border: 2px solid;
         color: white;
@@ -89,6 +89,26 @@
         padding: 15px 29px;
     }
 
+    .button2 {
+        font-size: 16px;
+        border-radius: 12px;
+        background-color: white;
+        border: 2px solid;
+        border-color: #dd1313;
+        padding: 10px 24px;
+        transition-duration: 0.5s;
+        display: inline-block;
+        cursor: pointer;
+        transition: padding color 1s;
+    }
+
+    .button2:hover {
+        background-color: #dd1313;
+        border: 2px solid;
+        color: white;
+        padding-right: 25px;
+        padding: 15px 29px;
+    }
 </style>
 
 <body>
@@ -111,14 +131,26 @@
     <h1 style="color: white;margin-top: -45px; text-align: center;font-family: monospace;">Seorang siswa yang bermimpi
         menjadi full stack developer</h1>
 
-    <div style="background-color: white; display: block; opacity: 0.8;margin-top: 286px;height: 630px;" class="corner" id="aboutme">
+    <div style="background-color: white; display: block; opacity: 0.8;margin-top: 286px;height: 630px;" class="corner"
+        id="aboutme">
         <h1 style="padding: 10px;text-align: center;">ABOUT ME</h1>
-        <div style="float: left;"><img src="Stickman.jpg" style="border-radius: 50%;width: 500px; margin-left: 100px;" class="border"></div>
+        <div style="float: left;"><img src="Stickman.jpg" style="border-radius: 50%;width: 500px; margin-left: 100px;"
+                class="border"></div>
         <div style="float: left; margin-left: 100px;font-size: 20px;max-width: 500px;">
-            <p style="float: inline-start;">Aku adalah</p><p style="float: left;color: aqua; margin-left: 6px;">Andikari</p>
-            <p style="float: left;">Aku seorang siswa di SMKN 4 yang memiliki cita cita sebagai full stack developer. Aku berasal dari cileunyi atau bandung timur. Kelas ku adalah X PPLG 1 atau kelas industri PPLG kelas 10. Sebenarnya aku memiliki cita cita untuk bisa masuk Google dan menjadi manager disana lalu hidup tenang tapi aku juga tau bahwa itu tak akan segampang itu makanya aku hanya menaruh full stack developer saja.</p>
+            <p style="float: inline-start;">Aku adalah</p>
+            <p style="float: left;color: aqua; margin-left: 6px;">Andikari</p>
+            <p style="float: left;">Aku seorang siswa di SMKN 4 yang memiliki cita cita sebagai full stack developer.
+                Aku berasal dari cileunyi atau bandung timur. Kelas ku adalah X PPLG 1 atau kelas industri PPLG kelas
+                10. Sebenarnya aku memiliki cita cita untuk bisa masuk Google dan menjadi manager disana lalu hidup
+                tenang tapi aku juga tau bahwa itu tak akan segampang itu makanya aku hanya menaruh full stack developer
+                saja.</p>
 
-            <a href="https://github.com/SmileAjalah"><button style="display: flex;float: inline-start;vertical-align: middle;"><img src="github.png" style="width: 20px;padding-right: 5px;">GITHUB</button></a>
+            <a href="https://github.com/SmileAjalah"><button
+                    style="display: flex;float: inline-start;vertical-align: middle;margin-right: 3px;" class="button1"><img src="github.png"
+                        style="width: 20px;padding-right: 5px;">GITHUB</button></a>
+            <a href="https://www.youtube.com/@smileajalah3569"><button
+                    style="display: flex;float: inline-start;vertical-align: middle;" class="button2"><img src="youtube.png"
+                        style="width: 20px;padding-right: 5px;">YOUTUBE</button></a>
         </div>
     </div>
 </body>
