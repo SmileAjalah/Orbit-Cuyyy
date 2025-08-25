@@ -77,6 +77,28 @@
         z-index: 1030;
     }
 
+    .aniuy {
+        animation: 
+            aniuy 2s steps(64, end) forwards
+        ;
+    }
+
+    .aniuy img {
+        animation: 
+            imuy 3s steps(64, end) forwards
+        ;
+    }
+
+    @keyframes aniuy {
+        from {width: 0;}
+        to {width: 100%;}
+    }
+
+    @keyframes imuy {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+
     li {
         float: left;
         margin-right: 5px;
@@ -191,7 +213,7 @@
     <h1 style="color: white;margin-top: -45px; text-align: center;font-family: monospace;">Seorang siswa yang bermimpi
         menjadi full stack developer</h1>
 
-    <div style="background-color: white; display: block; opacity: 0.8;margin-top: 286px;height: 630px;" class="corner"
+    <div style="background-color: white; display: block; opacity: 0.8;margin-top: 286px;height: 630px;" class="corner aniuy"
         id="aboutme">
         <h1 style="padding: 10px;text-align: center;">ABOUT ME</h1>
         <div style="float: left;"><img src="Stickman.jpg" style="border-radius: 50%;width: 500px; margin-left: 100px;"
@@ -204,6 +226,8 @@
                 10. Sebenarnya aku memiliki cita cita untuk bisa masuk Google dan menjadi manager disana lalu hidup
                 tenang tapi aku juga tau bahwa itu tak akan segampang itu makanya aku hanya menaruh full stack developer
                 saja.</p>
+
+            <h1>Reach Me!</h1>
 
             <a href="https://github.com/SmileAjalah"><button
                     style="display: flex;float: inline-start;vertical-align: middle;margin-right: 3px;"
